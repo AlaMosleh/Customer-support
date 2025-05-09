@@ -23,7 +23,7 @@ This project is an **automated customer support system** built using [n8n](https
    * If support-related, passes the content to an AI Agent (configured via LangChain) with Pinecone retrieval.
    * The agent formats a friendly response and signs off as *Mr. Helpful from Tech Solutions*.
    * The reply is sent back automatically via Gmail.
-4. **Non-Support Flow**: If not support-related, the workflow halts (NoOp node).
+
 
 ## 🧠 Tech Stack
 
@@ -51,11 +51,3 @@ This project is an **automated customer support system** built using [n8n](https
 > "Hi there! 😊 Thanks for reaching out. You can reset your password by clicking \[this link]. Let me know if you need more help!
 >
 > – Mr. Helpful from Tech Solutions"
-
-## 📄 License
-
-MIT License
-
----
-
-Would you like a visual diagram of the workflow for the README as well?
